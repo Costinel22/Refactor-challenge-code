@@ -21,6 +21,19 @@
 ### Code changes exemples
 & use `header` insted div for header and thake out header from body.
 & use `nav` insted div for navigation
+<header>
+    <h1>Hori<span class="seo">seo</span>n</h1>
+    <!-- I change non-semantic div with semantic element nav, beacuse it is a navigate area -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#search-engine-optimization">Search Engine Optimization</a>
+            </li>
+            <li>
+                <a href="#online-reputation-management">Online Reputation Management</a>
+            </li>
+            <li>
+                <a href="#social-media-marketing">Social Media Marketing</a>
             </li>
         </ul>
     </nav>
@@ -41,3 +54,22 @@
     margin-bottom: 10px;
     text-align: center;
  }
+
+ Another changeis is `footer` with div 
+
+ <footer>
+        <h2>Made with ❤️️ by Horiseon</h2>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
+  
+And added background color to footer with css.
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #5192b5;
+}
