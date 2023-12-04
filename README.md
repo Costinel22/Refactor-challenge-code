@@ -4,7 +4,7 @@
  For this project I had to refactor an already existing code. 
     - I had to refactor the code and make sure that the code is refactored properly.
     - I need to change title of the page to something descritive.
-    - HTML to be mpre semantics.
+    - HTML to be more semantic.
     - CSS more efficient.
     - All links should work as expected.
     - Atribute `alt` should describe the picture properly. 
@@ -13,11 +13,17 @@
  I WANT a codebase that follows accessibility standards
  SO THAT our own site is optimized for search engines
  ### Accepted criteria
-* Semantic HTML elements can be found throughout the source code
-* HTML elements follow a logical structure independent of styling and positioning
-* Image and icon elements contain accessible `alt` attributes
-* Heading attributes fall in sequential order
-* Title elements contain a concise, descriptive title
+ o To fulfill this user story, the following acceptance criteria must be met:
+
+    Semantic HTML elements: The codebase should consistently utilize semantic HTML elements, such as header, nav, main, article, section, and aside, to clearly define the structure and purpose of each section of the website.
+
+    Logical HTML structure: The HTML structure should be organized in a logical manner, independent of styling or positioning. This means that the code should convey the intended content hierarchy and relationships between elements without relying on CSS or JavaScript for presentation.
+
+    Accessible image and icon alt attributes: All images and icons should include descriptive and informative alt attributes that provide a textual equivalent of the visual content. This ensures that users with visual impairments can understand the content of the website effectively.
+
+    Sequential heading structure: Heading elements should be used in a sequential manner, starting with <h1> for the main title and progressing through <h2>, <h3>, and so on. This helps screen readers and assistive technologies understand the hierarchical organization of the content.
+
+    Concise and descriptive page titles: The title element should contain a clear and concise description of the content of each page. This is crucial for search engine optimization and providing users with a quick understanding of the page's purpose.
 ### Code changes exemples
 & use `header` insted div for header and thake out header from body.
 & use `nav` insted div for navigation
