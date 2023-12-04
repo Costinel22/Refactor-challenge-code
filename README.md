@@ -56,13 +56,6 @@
  }
 
  Another changeis is `footer` with div 
-
- <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </footer>
   
 And added background color to footer with css.
 

@@ -173,6 +173,14 @@ p {
 /*replace div whit footer and delete footer class
 added footer color*/
 
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #5192b5;
+}
+
 
 /*replace div whit footer and delete footer class*/
 
