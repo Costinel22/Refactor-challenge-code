@@ -23,7 +23,9 @@ Title element contine clear and coincise description to give ueser quick underst
 ### Code changes exemples
 & use `header` insted div for header and thake out header from body.
 & use `nav` insted div for navigation
-"<header>
+
+
+header>
     <h1>Hori<span class="seo">seo</span>n</h1>
     <!-- I change non-semantic div with semantic element nav, beacuse it is a navigate area -->
     <nav>
@@ -39,7 +41,7 @@ Title element contine clear and coincise description to give ueser quick underst
             </li>
         </ul>
     </nav>
-</header>"
+/header>
 
 
 
